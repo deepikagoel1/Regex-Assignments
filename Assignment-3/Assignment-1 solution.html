@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function replace() {
+            const a = document.getElementById("txt").value;
+            const b = document.getElementById("rep").value;
+            const c = document.getElementById("pos").value;
+
+            const new_txt = a.split(b).join(c);
+            alert(new_txt);
+
+            const show = document.getElementById("replace-texts")
+            show.innerHTML = `Your real text is : 
+                ${a}   <br>You replaced your text with:  ${new_txt}
+               
+                <h4> Thanks for using our App !</h4>`;
+
+        }
+    </script>
+    <style>
+        form {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            justify-content: center;
+            margin-top: 12%;
+        }
+        
+        legend {
+            font-family: cursive;
+            font-weight: bolder;
+        }
+        
+        label {
+            font-family: system-ui;
+            font-weight: 600;
+        }
+        
+        label:hover {
+            color: orange;
+        }
+        
+        #replace-texts {
+            font-family: system-ui;
+            font-weight: 600;
+            cursor: pointer;
+            color: blueviolet;
+        }
+        
+        fieldset {
+            border: 2px solid darkblue;
+            border-radius: 9px;
+        }
+        
+        h2 {
+            display: flex;
+            align-items: center;
+            margin: auto;
+            justify-content: center;
+            margin-top: 32px;
+            font-weight: 900;
+            color: forestgreen;
+        }
+        
+        input {
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }
+        
+        button {
+            border: 2px solid dodgerblue;
+            font-family: serif;
+            font-weight: bolder;
+            border-radius: 18px;
+            padding: 3px;
+            margin: auto;
+            display: flex;
+        }
+        
+        button:hover {
+            color: white;
+            background: black;
+        }
+        
+        table {
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend>Programme to replace implement find and replace mechanism using js</legend>
+            <h2>Javascript Assignment : 1</h2>
+            <table cellspacing="15px">
+                <tr>
+                    <td><label for="txt">Enter your text:</label></td>
+                    <td><input type="text" id="txt"></td>
+                </tr>
+                <tr>
+                    <td><label for="rep">Enter your text which you want to replace:</label></td>
+                    <td><input type="text" id="rep"></td>
+                </tr>
+                <tr>
+                    <td><label for="pos">Enter your text which you want to in replace position:</label></td>
+                    <td><input type="text" id="pos"></td>
+                </tr>
+
+                <tr id="replace-texts">
+
+                </tr>
+            </table>
+            <button onclick="replace()">Replace</button>
+        </fieldset>
+
+    </form>
+
+
+</body>
+
+</html>

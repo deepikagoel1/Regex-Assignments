@@ -1,0 +1,103 @@
+img {
+    height: 45px;
+    width: 45px;
+    margin: 15px;
+    margin-top: 12px;
+}
+
+h2 {
+    margin-right: 24px;
+}
+
+.first {
+    display: flex;
+    margin-left: 21px;
+}
+
+.cont {
+    max-width: 41%;
+    border-right: 2px solid;
+    margin-top: 41px;
+}
+
+.cont-2 {
+    border-right: 2px solid;
+    margin-top: 41px;
+}
+
+p {
+    margin-top: -7px;
+}
+
+.second {
+    margin-left: 21px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: -60px;
+    margin-top: 40px;
+}
+
+li {
+    padding: 0px 7px;
+    margin: 0px 0;
+}
+
+li a {
+    border-right: 2px solid black;
+    border-radius: 1px;
+    padding: 0px 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.hr {
+    display: inline;
+    margin: 0px 26px;
+    margin-top: -10px;
+    color: black;
+}
+
+hr {
+    margin-top: 14%;
+}
+
+.container {
+    display: flex;
+}
+
+table button {
+    border: 2px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+tr td {
+    margin: 0px 52px;
+    font-weight: 500;
+    padding: 3px 28px;
+}
+
+.cont-3 img {
+    width: 61%;
+    height: 33px;
+    margin-right: -815px;
+    margin-top: 157px;
+}
+
+.hr-b {
+    margin-top: 28px;
+}
+
+.bidcont {
+    max-width: 97%;
+    margin: auto;
+}
+
+.botton-btn {
+    display: flex;
+    margin-top: -32px;
+}

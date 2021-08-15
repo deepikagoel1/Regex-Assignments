@@ -1,0 +1,31 @@
+div {
+    background-image: url(./backgrounds.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 35%;
+}
+
+p {
+    max-width: 56%;
+    padding: 119px;
+    font-family: Algerian;
+    color: #99722b;
+    padding-left: 80px;
+}
+
+strong {
+    font-size: 26px;
+    display: block;
+    margin: auto;
+    max-width: 62%;
+    margin-top: -15px;
+    margin-bottom: 27px;
+}
+
+.writer {
+    font-size: 16px;
+    margin-top: 29px;
+}
